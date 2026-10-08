@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 FIG = os.path.join(ROOT, "figures")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 

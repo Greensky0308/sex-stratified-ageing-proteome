@@ -9,15 +9,15 @@ checks.
 ## Repository layout
 
 ```
-code/      analysis scripts (this directory)
+*.py       analysis scripts (this directory)
 data/      input summary statistics (not distributed here; see data/README.md)
 out/       intermediate and derived tables written by the scripts
 tables/    the phenotype summary table
 figures/   the figures
 ```
 
-Each script resolves the repository root as the parent of `code/` and reads and writes
-relative to it. Output directories are created automatically on first run.
+Each script resolves the repository root as the directory that contains it and reads and
+writes relative to it. Output directories are created automatically on first run.
 
 ## Requirements
 
@@ -72,8 +72,8 @@ Run the scripts from the repository root, in the order below. Each step writes a
 Example:
 
 ```
-python code/liftover_instruments.py
-python code/alm_sexdiff.py
+python liftover_instruments.py
+python alm_sexdiff.py
 ```
 
 ## Notes

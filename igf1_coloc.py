@@ -6,7 +6,7 @@ variant at the locus or just LD. IGF-1 regional stats are pulled as a BGZF tail.
 """
 import gzip, io, os, subprocess, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from coloc_abf import coloc                                   # noqa: E402
 from sult2a1_crossplatform import read_somascan, SOMA         # noqa: E402

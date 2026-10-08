@@ -7,8 +7,8 @@ harmonised to the pQTL effect allele.
 """
 import gzip, os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(ROOT, "scripts"))
+ROOT = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, ROOT)
 from coloc_abf import coloc                                  # noqa: E402
 
 PAG1 = os.path.join(ROOT, "data", "decode",

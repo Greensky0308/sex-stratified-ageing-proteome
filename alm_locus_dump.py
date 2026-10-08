@@ -5,7 +5,7 @@ Usage: alm_locus_dump.py <chrom> <start> <end> [zmin]
 """
 import gzip, os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from alm_sexdiff import _colmap, ACC   # noqa: E402
 

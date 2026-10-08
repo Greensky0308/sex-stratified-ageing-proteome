@@ -6,7 +6,7 @@ re-run in an independent, non-UKB, sex-stratified cohort (even if underpowered)?
 """
 import gzip, math, os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 KP4 = os.path.join(ROOT, "data", "kp4cd")
 INST = os.path.join(ROOT, "data", "instruments_ukbppp_grch38.tsv")
 COMP = {"A": "T", "T": "A", "C": "G", "G": "C"}

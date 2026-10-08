@@ -3,7 +3,7 @@
 import os, sys
 import pysam
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cst3_locus_inspect import read_somascan, read_sarc, SARC   # noqa: E402
 

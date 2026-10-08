@@ -7,7 +7,7 @@ align to a BGZF block boundary, and decompress from there.
 """
 import io, gzip, os, subprocess, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(ROOT, ".cache")
 PROXY = os.environ.get("HTTPS_PROXY")
 CURL = ["curl", "-s"] + (["-x", PROXY] if PROXY else [])

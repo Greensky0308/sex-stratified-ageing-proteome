@@ -2,7 +2,7 @@
 """Dump muscle-weakness (grip) F/M z-scores at the SULT2A1 locus, allele-oriented."""
 import os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from alm_locus_dump import dump      # noqa: E402
 

@@ -6,7 +6,7 @@ ALM signal ~650 kb away; narrow windows centred on the gene should be used.
 """
 import os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from coloc_abf import coloc                              # noqa: E402
 from sult2a1_crossplatform import read_somascan, SOMA, CHR, LO, HI, COMP  # noqa: E402

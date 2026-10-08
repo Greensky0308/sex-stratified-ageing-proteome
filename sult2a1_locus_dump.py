@@ -2,7 +2,7 @@
 """Side-by-side z-scores of SomaScan SULT2A1 pQTL and ALM F/M across the locus."""
 import os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from sult2a1_crossplatform import read_somascan, SOMA, CHR, LO, HI, COMP   # noqa: E402
 from alm_locus_dump import dump                                           # noqa: E402

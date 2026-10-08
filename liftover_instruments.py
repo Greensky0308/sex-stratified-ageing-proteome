@@ -8,7 +8,7 @@ import os
 
 from pyliftover import LiftOver
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "data", "instruments_ukbppp_grch37.tsv")
 DST = os.path.join(ROOT, "data", "instruments_ukbppp_grch38.tsv")
 

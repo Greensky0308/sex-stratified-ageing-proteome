@@ -14,7 +14,7 @@ import argparse, math, os
 import numpy as np
 from scipy.stats import norm
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
 def load_inst(path):

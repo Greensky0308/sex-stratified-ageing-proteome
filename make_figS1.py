@@ -11,7 +11,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 FIG = os.path.join(ROOT, "figures")
 plt.rcParams.update({
     "font.family": "Arial", "font.size": 9, "axes.linewidth": 0.8,

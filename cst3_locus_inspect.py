@@ -7,7 +7,7 @@ whether H3=1 is driven by an over-wide window.
 import os, sys
 import pysam
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from coloc_abf import coloc, load                       # noqa: E402
 

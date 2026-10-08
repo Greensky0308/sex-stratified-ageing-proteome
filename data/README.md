@@ -9,7 +9,7 @@ marked as controlled access.
 
 Top cis-pQTL per protein from the UK Biobank Pharma Proteomics Project (Olink), one row per
 protein. Required columns: `protein`, `rsid`, `chromosome`, `position`, `effect_allele`,
-`beta`. The GRCh38 version is produced by `code/liftover_instruments.py`.
+`beta`. The GRCh38 version is produced by `liftover_instruments.py`.
 
 ## `data/sumstats/<ACCESSION>.h.tsv.gz`
 

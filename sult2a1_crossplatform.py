@@ -9,7 +9,7 @@
 """
 import gzip, math, os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from coloc_abf import coloc                      # noqa: E402
 from alm_locus_dump import dump                  # noqa: E402

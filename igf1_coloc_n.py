@@ -7,8 +7,8 @@ remote copies.
 """
 import gzip, os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(ROOT, "scripts"))
+ROOT = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, ROOT)
 from sult2a1_crossplatform import read_somascan, SOMA, COMP   # noqa: E402
 from pyliftover import LiftOver                                # noqa: E402
 

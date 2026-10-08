@@ -7,7 +7,7 @@ genome-wide, combined sexes).
 """
 import gzip, math, os
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 SOMA = os.path.join(ROOT, "data", "decode",
                     "Proteomics_SMP_PC0_9829_91_SULT2A1_SULT_2A1_10032022.txt.gz")
 ALM = {"F": "GCST90000027.h.tsv.gz", "M": "GCST90000026.h.tsv.gz"}

@@ -100,14 +100,14 @@ def bh(p):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--instruments",
-                    default=os.path.join(os.path.dirname(os.path.dirname(
-                        os.path.abspath(__file__))), "data", "instruments_ukbppp_grch37.tsv"))
+                    default=os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                         "data", "instruments_ukbppp_grch37.tsv"))
     ap.add_argument("--outdir", default="out/alm_ukbppp")
     ap.add_argument("--f-acc", default=ACC["F"])
     ap.add_argument("--m-acc", default=ACC["M"])
     ap.add_argument("--max-z", type=float, default=None)
     a = ap.parse_args()
-    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    root = os.path.dirname(os.path.abspath(__file__))
     os.makedirs(os.path.join(root, a.outdir), exist_ok=True)
     inst = load_instruments(a.instruments)
     print("instruments:", len(inst))

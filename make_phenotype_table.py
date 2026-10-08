@@ -7,7 +7,7 @@ the instrument effect on protein (bx = -0.378).
 """
 import csv, os
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 BX = -0.377711                                   # instrument: A -> SULT2A1 (per allele)
 OUT = os.path.join(ROOT, "tables")
 

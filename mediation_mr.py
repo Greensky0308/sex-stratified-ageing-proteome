@@ -9,7 +9,7 @@ import gzip, math, os
 
 from pyliftover import LiftOver
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 LO = LiftOver("hg19", "hg38")
 IGF = {"F": "data/igf1/igf1_female.tsv.bgz", "M": "data/igf1/igf1_male.tsv.bgz"}
 ALM = {"F": "GCST90000027.h.tsv.gz", "M": "GCST90000026.h.tsv.gz"}

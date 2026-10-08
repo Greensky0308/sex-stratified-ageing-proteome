@@ -15,7 +15,7 @@ sarcopenia cols: chromosome base_pair_location effect_allele other_allele beta s
 import math, os, sys
 import pysam
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 CIS_RAW = os.environ.get("CST3_CIS_RAW") or os.path.join(ROOT, "out", "cst3_cis_raw.tsv")
 SARC = {"F": "GCST90832979", "M": "GCST90832980"}
 REGION = ("20", 22626706, 24638556)

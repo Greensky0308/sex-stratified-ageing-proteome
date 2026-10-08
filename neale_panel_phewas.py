@@ -6,7 +6,7 @@ Harmonises to the SULT2A1-lowering allele A and reports F/M effects + sex-diff z
 """
 import math, os, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_neale_snp import fetch_tail, parse   # noqa: E402
 
